@@ -1,0 +1,20 @@
+@mixin heading1 {
+  font-size: 2rem;
+  font-family: $font-1;
+  color: white;
+}
+
+@mixin heading2 {
+  font-size: .8rem;
+  font-family: $font-2;
+  text-transform: uppercase;
+  color: $color-primary;
+  font-weight: 700;
+}
+
+@mixin paragraph {
+  color: white;
+  font-size: .7rem;
+  font-family: $font-1;
+  margin-top: 1rem;
+}

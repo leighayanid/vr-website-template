@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Poppins&display=swap");
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  font-size: 17%;
+}
+
+.container {
+  padding: 0 10rem;
+}
+
+.main-text {
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+.sub-text {
+  font-size: .8rem;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  color: #4C83FF;
+  font-weight: 700;
+}
+
+.p-text {
+  color: white;
+  font-size: .7rem;
+  font-family: "Poppins", sans-serif;
+  margin-top: 1rem;
+}
+
+.p-text-dark {
+  color: white;
+  font-size: .7rem;
+  font-family: "Poppins", sans-serif;
+  margin-top: 1rem;
+  color: #4C83FF;
+}
+
+.btn {
+  border: none;
+  padding: .5rem 1.1rem;
+  font-size: .7rem;
+}
+
+.btn-primary {
+  color: black;
+}
+
+.btn-plain {
+  background: none;
+  border-bottom: 2px solid white;
+  color: white;
+}
+
+.btn-secondary {
+  background: #DAA932;
+  color: white;
+}
+
+.btn-rounded {
+  border-radius: 15px;
+}
+
+.btn-box {
+  border-radius: 5px;
+}
+
+.btn-border {
+  border: none;
+  background: none;
+  padding: 0 .2rem;
+}
+
+.header {
+  background: -webkit-gradient(linear, left top, right bottom, from(#7464FD), to(#5851EA));
+  background: linear-gradient(to right bottom, #7464FD, #5851EA);
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow: hidden;
+  position: relative;
+}
+
+.header img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.header-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: inherit;
+  z-index: 100;
+  margin-top: 7.5%;
+}
+
+.header-info h1 {
+  text-align: center;
+}
+
+.header-info__actions {
+  margin-top: 5%;
+}
+
+.header-menu {
+  width: 100%;
+  height: 10%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20% 80%;
+      grid-template-columns: 20% 80%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-menu__logo {
+  font-size: .8rem;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  color: #4C83FF;
+  font-weight: 700;
+  color: white;
+}
+
+.header-menu__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-menu__links a {
+  font-size: 1rem;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  color: white;
+  text-decoration: none;
+  font: "Open Sans", sans-serif;
+}
+/*# sourceMappingURL=main.css.map */

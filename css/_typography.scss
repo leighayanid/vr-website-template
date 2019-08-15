@@ -1,0 +1,16 @@
+.main-text {
+ @include heading1;
+}
+
+.sub-text {
+  @include heading2;
+}
+
+.p-text {
+  @include paragraph;
+}
+
+.p-text-dark {
+  @include paragraph;
+  color: $color-primary;
+}

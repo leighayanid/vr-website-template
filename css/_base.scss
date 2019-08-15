@@ -1,0 +1,13 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: $font-1;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: inherit;
+  font-size: 17%;
+}
