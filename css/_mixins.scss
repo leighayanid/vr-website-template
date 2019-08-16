@@ -8,12 +8,13 @@
   font-size: .8rem;
   font-family: $font-2;
   text-transform: uppercase;
-  color: $color-primary;
-  font-weight: 700;
+  color: $color-dark;
+  word-spacing: 1.5px;
+  letter-spacing: 1px;
 }
 
 @mixin paragraph {
-  color: white;
+  color: $color-grey-1;
   font-size: .7rem;
   font-family: $font-1;
   margin-top: 1rem;

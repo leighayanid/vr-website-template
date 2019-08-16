@@ -15,8 +15,9 @@
   }
 
   &-secondary {
-    background: $color-secondary;
+    background: linear-gradient(to right bottom, #7464FD, #5851EA);
     color: white;
+    box-shadow: 0px 10px 20px rgba(#5851EA, .2);
   }
 
   &-rounded {
