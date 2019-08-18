@@ -1,0 +1,11 @@
+.card {
+  background: white;
+
+  &-1 {
+    border-top-left-radius: 50px;
+  }
+  &-2 {
+    border-bottom-right-radius: 50px;
+  }
+
+}
