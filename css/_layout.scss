@@ -58,7 +58,7 @@
 
   &__list {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 1rem;
   }
 }
@@ -157,11 +157,11 @@
       padding: .25rem 1rem;
       font-size: 1rem;
       margin-right: 1rem;
-      width: 15rem;
+      width: 25rem;
     }
 
     button {
-      padding: .75rem 1rem;
+      padding: .5rem 1rem;
     }
   }
 }
