@@ -210,6 +210,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-bottom: 5rem;
 }
 
 .news-letter .form {
@@ -409,5 +410,61 @@ body {
   color: white;
   text-decoration: none;
   font: "Open Sans", sans-serif;
+}
+
+footer {
+  background: -webkit-gradient(linear, left top, right bottom, from(#7464FD), to(#5851EA));
+  background: linear-gradient(to right bottom, #7464FD, #5851EA);
+  height: 75vh;
+  width: 100vw;
+  padding: 5rem 0;
+  position: relative;
+}
+
+footer .footer-img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.footer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(100px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-column-gap: 2rem;
+}
+
+.footer-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  z-index: 100;
+}
+
+.footer-links h2 {
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.footer-links p {
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  margin-bottom: .35rem;
+}
+
+.social-icons {
+  width: 80%;
 }
 /*# sourceMappingURL=main.css.map */
