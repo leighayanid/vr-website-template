@@ -1,6 +1,5 @@
 footer {
   background: linear-gradient(to right bottom, #7464FD, #5851EA);
-  height: 75vh;
   width: 100vw;
   padding: 5rem 0;
   position: relative;
@@ -42,8 +41,22 @@ footer {
     }
   }
 
+    hr {
+      height: 4px;
+      color: white;
+      padding: 0 5rem;
+      width: 80%;
+    }
 }
 
 .social-icons {
   width: 80%;
+}
+
+.text-footer {
+  color: white;
+  text-align: center;
+  padding-top: 4rem;
+  font-size: 1rem;
+  opacity: 1;
 }
