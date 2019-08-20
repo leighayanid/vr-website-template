@@ -10,6 +10,10 @@
 .feature {
   width: 100%;
 
+  h2 {
+    text-align: center;
+  }
+
   p {
     color: #6F7982;
     text-align: center;
@@ -47,7 +51,7 @@
 
 .user-reviews {
   background: linear-gradient(to right bottom, #7464FD, #5851EA);
-  height: 80vh;
+  height: 80%;
   width: 100vw;
   padding: 5rem 2rem;
 
@@ -59,7 +63,7 @@
   &__list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 1rem;
+    grid-gap: 2rem;
   }
 }
 
@@ -75,7 +79,7 @@
 
   p {
     color: $color-dark;
-    font-size: .65rem;
+    font-size: 1rem;
   }
 
   &-info {
@@ -84,8 +88,8 @@
     margin-top: 1rem;
 
     img {
-      width: 3rem;
-      height: 3rem;
+      width: 5rem;
+      height: 5rem;
       object-fit: cover;
       border-radius: 50px;
       margin-right: 1rem;

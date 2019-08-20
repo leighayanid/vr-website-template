@@ -10,10 +10,13 @@
   padding: 0;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   -webkit-box-sizing: inherit;
           box-sizing: inherit;
-  font-size: 17%;
 }
 
 .container {
@@ -27,6 +30,10 @@ body {
 
 .feature {
   width: 100%;
+}
+
+.feature h2 {
+  text-align: center;
 }
 
 .feature p {
@@ -77,7 +84,7 @@ body {
 .user-reviews {
   background: -webkit-gradient(linear, left top, right bottom, from(#7464FD), to(#5851EA));
   background: linear-gradient(to right bottom, #7464FD, #5851EA);
-  height: 80vh;
+  height: 80%;
   width: 100vw;
   padding: 5rem 2rem;
 }
@@ -92,7 +99,7 @@ body {
   display: grid;
   -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 1rem;
+  grid-gap: 2rem;
 }
 
 .review {
@@ -117,7 +124,7 @@ body {
 
 .review p {
   color: #324865;
-  font-size: .65rem;
+  font-size: 1rem;
 }
 
 .review-info {
@@ -131,8 +138,8 @@ body {
 }
 
 .review-info img {
-  width: 3rem;
-  height: 3rem;
+  width: 5rem;
+  height: 5rem;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 50px;
@@ -238,13 +245,13 @@ body {
 }
 
 .main-text {
-  font-size: 2rem;
+  font-size: 3rem;
   font-family: "Poppins", sans-serif;
   color: white;
 }
 
 .sub-text {
-  font-size: .8rem;
+  font-size: 1.25rem;
   font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
   color: #324865;
@@ -254,14 +261,14 @@ body {
 
 .p-text {
   color: #C6C5C4;
-  font-size: .7rem;
+  font-size: 1rem;
   font-family: "Poppins", sans-serif;
   margin-top: 1rem;
 }
 
 .p-text-dark {
   color: #C6C5C4;
-  font-size: .7rem;
+  font-size: 1rem;
   font-family: "Poppins", sans-serif;
   margin-top: 1rem;
   color: #4C83FF;
@@ -269,8 +276,8 @@ body {
 
 .btn {
   border: none;
-  padding: .5rem 1.1rem;
-  font-size: .7rem;
+  padding: .75rem 1.25rem;
+  font-size: 1rem;
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
 }
@@ -393,7 +400,7 @@ body {
 }
 
 .header-menu__logo {
-  font-size: .8rem;
+  font-size: 1.25rem;
   font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
   color: #324865;

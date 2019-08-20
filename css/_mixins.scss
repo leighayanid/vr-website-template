@@ -1,11 +1,11 @@
 @mixin heading1 {
-  font-size: 2rem;
+  font-size: 3rem;
   font-family: $font-1;
   color: white;
 }
 
 @mixin heading2 {
-  font-size: .8rem;
+  font-size: 1.25rem;
   font-family: $font-2;
   text-transform: uppercase;
   color: $color-dark;
@@ -15,7 +15,7 @@
 
 @mixin paragraph {
   color: $color-grey-1;
-  font-size: .7rem;
+  font-size: 1rem;
   font-family: $font-1;
   margin-top: 1rem;
 }
