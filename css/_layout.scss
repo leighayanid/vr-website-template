@@ -1,5 +1,9 @@
 .container {
   padding: 0 10rem;
+
+  @media screen and (max-width: 600px){
+    padding: 0 2rem;    
+  }
 }
 
 .features {

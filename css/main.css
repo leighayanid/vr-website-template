@@ -23,6 +23,12 @@ body {
   padding: 0 10rem;
 }
 
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 0 2rem;
+  }
+}
+
 .features {
   padding: 5rem 0;
   width: 100vw;
