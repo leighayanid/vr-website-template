@@ -406,12 +406,9 @@ body {
 }
 
 .header-menu__logo {
-  font-size: 1.25rem;
-  font-family: "Open Sans", sans-serif;
-  text-transform: uppercase;
-  color: #324865;
-  word-spacing: 1.5px;
-  letter-spacing: 1px;
+  font-size: 3rem;
+  font-family: "Poppins", sans-serif;
+  color: white;
   color: white;
 }
 
